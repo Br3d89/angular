@@ -7,7 +7,7 @@ ts_library(
     name = "ngcc",
     srcs = glob([
         "*.ts",
-        "**/*.ts",
+        "src/**/*.ts",
     ]),
     deps = [
         "//packages:types",
